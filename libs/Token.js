@@ -5,8 +5,8 @@ function Token (token) {
   this.token = token
 
   var parts = token.split('.')
-  this.header = JSON.parse(Buffer.from((parts[0], 'base64').toString()))
-  this.content = JSON.parse(Buffer.from((parts[1], 'base64').toString()))
+  this.header = JSON.parse(Buffer.from(parts[0], 'base64').toString());
+  this.content = JSON.parse(Buffer.from(parts[1], 'base64').toString());
   this.signature = Buffer.from(parts[2], 'base64')
   this.signed = parts[0] + '.' + parts[1]
 }
