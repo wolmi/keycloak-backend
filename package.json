@@ -1,5 +1,5 @@
 {
-  "name": "@arsa-dev/keycloak-backend",
+  "name": "@wolmi/keycloak-backend",
   "version": "2.1.2",
   "description": "Keycloak Node.js minimalist connector for backend services integration. ",
   "main": "src/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jkyberneees/keycloak-backend.git"
+    "url": "git+https://github.com/wolmi/keycloak-backend.git"
   },
   "keywords": [
     "keycloak",
@@ -28,9 +28,9 @@
   "author": "Rolando Santamaria Maso <kyberneees@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jkyberneees/keycloak-backend/issues"
+    "url": "https://github.com/wolmi/keycloak-backend/issues"
   },
-  "homepage": "https://github.com/jkyberneees/keycloak-backend#readme",
+  "homepage": "https://github.com/wolmi/keycloak-backend#readme",
   "dependencies": {
     "axios": "^0.21.0",
     "jsonwebtoken": "^8.5.1"
