@@ -7,7 +7,8 @@
     "transpile": "babel libs --out-dir src --ignore templates/* --copy-files",
     "lint": "standard",
     "format": "standard --fix",
-    "test": "echo 'TODO'"
+    "test": "echo 'TODO'",
+    "post-install": "npm run transpile"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
   "files": [
     "LICENSE",
     "README.md",
-    "src/"
+    ".babelrc",
+    "lib/"
   ],
   "author": "Rolando Santamaria Maso <kyberneees@gmail.com>",
   "license": "MIT",
