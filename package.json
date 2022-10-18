@@ -1,6 +1,6 @@
 {
-  "name": "keycloak-backend",
-  "version": "2.0.1",
+  "name": "@arsa-dev/keycloak-backend",
+  "version": "2.1.2",
   "description": "Keycloak Node.js minimalist connector for backend services integration. ",
   "main": "src/index.js",
   "scripts": {
