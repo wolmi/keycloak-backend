@@ -35,11 +35,11 @@
   "homepage": "https://github.com/wolmi/keycloak-backend#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "axios": "^0.21.0",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
     "standard": "^15.0.0"
   }
 }
